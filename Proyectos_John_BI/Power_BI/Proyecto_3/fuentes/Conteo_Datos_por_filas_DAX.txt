@@ -1,0 +1,3 @@
+/*Contar empleados con DAX*/
+
+Total Empleados = COUNT('Tabla Empleados'[ID Empleado])
