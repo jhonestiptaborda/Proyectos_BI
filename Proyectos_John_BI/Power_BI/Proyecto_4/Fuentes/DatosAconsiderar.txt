@@ -1,0 +1,6 @@
+Tabla Finanzas - New Measure:
+
+Saldo = CALCULATE( [Utilidad], FILTER( ALL(Finanzas) , Finanzas[Fecha] <= MAX(Finanzas[Fecha])))
+Tabla Expectativas - New Measure
+
+Sa. Esperado = CALCULATE( [Ut. Esperada], FILTER( ALL(Expectativas), Expectativas[Fecha] <= MAX(Expectativas[Fecha])))
